@@ -16,9 +16,11 @@ public class Api {
                 .setBaseUri(ConfigReader.getProperty("base_url")).build();
 
     }
-    @Before(order=1)
+  /*  @Before(order=1)
     public void beforeGenerateToken(){
 
         token= ApiUtils.generateToken();
     }
+
+   */
 }
